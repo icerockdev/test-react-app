@@ -1,0 +1,59 @@
+@import '../../components/variables.css';
+
+.root {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 0 40px;
+    max-width: 380px;
+}
+
+.title {
+    color: #597eaa;
+    text-align: center;
+    font-weight: normal;
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.button {
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px 16px;
+    width: 100%;
+    outline: 0;
+    border: 1px solid #597eaa;
+    border-radius: 0;
+    background: #597eaa;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.3333333;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #678CB9;
+}
+
+.button[disabled] {
+    background: #b3b3b3;
+}
+
+.button[disabled]:hover {
+    background: #b3b3b3;
+}
+
+.button:focus {
+    border-color: #0074c2;
+    box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);
+}

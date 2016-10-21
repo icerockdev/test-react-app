@@ -1,0 +1,24 @@
+@import '../../components/variables.css';
+
+.root {
+    /*padding-left: 20px;*/
+    /*padding-right: 20px;*/
+}
+
+.boxRow {
+    text-align: center;
+}
+
+.iconFontWrap {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.textWrap {
+
+}
+
+.textWrapLink {
+    color: #fff;
+}

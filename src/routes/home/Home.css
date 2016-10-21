@@ -1,0 +1,65 @@
+@import '../../components/variables.css';
+
+.root {
+    /*padding-left: 20px;*/
+    /*padding-right: 20px;*/
+
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 0 40px;
+    max-width: var(--max-content-width);
+}
+
+.secFirst {
+    padding-top: 20px;
+    border: 1px solid transparent;
+}
+
+.secSecond {
+    background: #eee;
+    border: 1px solid transparent;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.secThird {
+    background: #597eaa;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid transparent;
+}
+.secFourth {
+    border: 1px solid transparent;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #597eaa;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.imgWrap {
+    height: 200px;
+    overflow: hidden;
+}
+
+.iconBody {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin: -25px auto;
+}

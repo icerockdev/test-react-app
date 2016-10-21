@@ -1,0 +1,21 @@
+.signUpLinkWrap {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.signUpLink {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    background: #597eaa;
+    box-sizing: border-box;
+    margin: 0;
+    outline: 0;
+    border: 1px solid #597eaa;
+    border-radius: 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.3333333;
+    cursor: pointer;
+}
